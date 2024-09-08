@@ -8,19 +8,21 @@ import { Button } from './ui/button';
 const Calculator = () => {
 
   let [input, setInput] = useState('')
-  let setterinput= (a:string)=>{
+
+  
+  const setterinput= (a:string)=>{
     input+=a
     setInput(input)
   }
 
-  let evaluate = ()=> {
+  const evaluate = ()=> {
      try{setInput(eval(input))}catch(e){
       console.log(e)
 
      }
   }
 
-  let backspace =()=>{
+  const backspace =()=>{
     setInput((input)=> input.slice(0,-1))
   }
 
