@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardFooter, CardHeader } from './ui/card';
+import { Card, CardContent, CardHeader } from './ui/card';
 import { Music, LinkedinIcon } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from './ui/button';
