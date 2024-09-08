@@ -38,7 +38,7 @@ const Calculator = () => {
           </div>
         </CardContent>
         <CardContent />
-<CardFooter className="flex flex-col sm:flex-row justify-between items-center p-4">
+<CardFooter className="flex flex-col sm:flex-row justify-between items-center p-4 w-full max-w-xs sm:max-w-xl">
   <div className="text-sm font-medium flex flex-col sm:flex-row items-center space-x-2 p-1 sm:p-0 text-center sm:text-left">
     <span>MADE WITH</span>
     <Heart className="text-red-500 hover:fill-red-500 m-1" size={16} />
