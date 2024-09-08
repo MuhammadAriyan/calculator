@@ -56,7 +56,7 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}, backgroundImage: {
-			'custom': "url('/bgimg.jpg')",
+			'custom': "url('/bg.jpg')",
 		  },
   	}
   },
