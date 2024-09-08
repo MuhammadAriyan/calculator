@@ -3,13 +3,14 @@ import React, { useState } from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
 import { LinkedinIcon, CalculatorIcon } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from './ui/button';
 
 const Calculator = () => {
 
   let [input, setInput] = useState('')
 
-  
+
   const setterinput= (a:string)=>{
     input+=a
     setInput(input)
@@ -66,10 +67,11 @@ const Calculator = () => {
         <div className="flex justify-between items-center p-4 flex-wrap relative overflow-auto">
           <div className="flex space-x-2 shrink-0">
             <Link href="https://github.com/MuhammadAriyan">
-              <img
+              <Image
                 src="/github.png"
                 alt="GITHUB"
                 width={25}
+                height={25}
                 className="opacity-75 hover:opacity-100 transition duration-200 ease-in-out"
               />
             </Link>
