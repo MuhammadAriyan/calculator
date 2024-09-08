@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
-import { Music, LinkedinIcon, CalculatorIcon } from 'lucide-react';
+import { LinkedinIcon, CalculatorIcon } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from './ui/button';
 
