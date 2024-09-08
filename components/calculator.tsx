@@ -8,15 +8,16 @@ import { Button } from './ui/button';
 const Calculator = () => {
 
   let [input, setInput] = useState('')
-  let [result, setResult] = useState('')
-
   let setterinput= (a:string)=>{
     input+=a
     setInput(input)
   }
 
   let evaluate = ()=> {
-     setInput(eval(input))
+     try{setInput(eval(input))}catch(e){
+      console.log(e)
+
+     }
   }
 
   let backspace =()=>{
@@ -30,7 +31,6 @@ const Calculator = () => {
           <textarea
             className="w-full border border-black rounded-sm pl-2 pt-1 resize-none bg-transparent size-8"
             readOnly
-            defaultValue="3"
             value={input}
           />
 
