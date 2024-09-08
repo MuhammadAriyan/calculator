@@ -6,10 +6,10 @@ import { Button } from './ui/button'
 
 const Calculator = () => {
   return (
-    <div className="flex h-screen items-center justify-center p-4">
-      <Card className='max-w-md w-full'>
+    <div className=" bg-custom bg-cover flex h-screen items-center justify-center p-4">
+      <Card className='bg-transparent max-w-md w-full border-black border-2'>
         <CardHeader className='bg-cover'>
-          <textarea className='w-full border border-black rounded-sm p-2 resize-none' readOnly><p>{}</p></textarea>
+          <textarea className='  w-full border border-black rounded-sm p-2 resize-none' readOnly><p></p></textarea>
         </CardHeader>
         <CardContent className='p-4'>
           <div className="grid grid-cols-4 gap-2 mb-2">
@@ -22,7 +22,7 @@ const Calculator = () => {
             <Button>4</Button>
             <Button>5</Button>
             <Button>6</Button>
-            <Button>/</Button>
+            <Button>÷</Button>
           </div>
           <div className="grid grid-cols-4 gap-2 mb-2">
             <Button>1</Button>
@@ -31,7 +31,7 @@ const Calculator = () => {
             <Button>+</Button>
           </div>
           <div className="grid grid-cols-4 gap-2">
-            <Button>*</Button>
+            <Button>×</Button>
             <Button>0</Button>
             <Button>-</Button>
             <Button>=</Button>
@@ -46,7 +46,7 @@ const Calculator = () => {
               <img src="github.png" alt="GITHUB" width={30} className="opacity-75 hover:opacity-100 transition duration-200 ease-in-out" />
             </Link>
             <Link href={'https://www.linkedin.com/in/muhammad-aryan'}>
-              <LinkedinIcon className="opacity-75 hover:opacity-100 transition duration-200 ease-in-out" size={30} />
+              <LinkedinIcon className="opc:\Users\LENOVO\Downloads\wp4294203-white-aesthetic-wallpapers.jpgacity-75 hover:opacity-100 transition duration-200 ease-in-out" size={30} />
             </Link>
           </div>
         </CardFooter>

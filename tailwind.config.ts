@@ -55,7 +55,9 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		}, backgroundImage: {
+			'custom': "url('/bgimg.jpg')",
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],
