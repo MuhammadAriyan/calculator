@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+
+# Calculator App
+
+A **simple, stylish calculator** built with **Next.js** and **Tailwind CSS**. This app allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division, with an intuitive UI.
+
+## Features
+
+- Basic arithmetic operations: **Addition**, **Subtraction**, **Multiplication**, and **Division**.
+- **Responsive design** that works across all devices.
+- Real-time updates of the calculation.
+- Functional **Backspace** button to delete the last entry.
+- Simple and clean user interface designed with **Tailwind CSS**.
+- Custom styling with **lucide-react icons** for enhanced visual experience.
+
+## Demo
+
+Check out the live version of the calculator here: [Calculator Demo](https://calculator-gilt-seven.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
+Follow the steps below to run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (v6 or later) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/MuhammadAriyan/calculator.git
+cd calculator
+```
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and navigate to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Building for Production
 
-## Learn More
+To build the project for production, run:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Once built, you can start the production server with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+### Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This app is ready to be deployed to any platform that supports **Next.js** applications. For seamless deployment, we recommend using [Vercel](https://vercel.com/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+The calculator allows you to:
+
+- Perform basic operations like `+`, `-`, `*`, and `/`.
+- Use the **backspace** button to delete the last character.
+- Evaluate the entire expression by clicking `=`.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building fast web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Lucide-react**: A library of icons used for buttons and visual elements.
+
+## Project Structure
+
+```bash
+├── components
+│   ├── ui
+│   │   ├── button.tsx
+│   │   └── card.tsx
+│   └── calculator.tsx
+├── public
+│   ├── github.png
+├── styles
+│   ├── globals.css
+├── pages
+│   └── index.tsx
+├── .eslintrc.json
+├── next.config.js
+└── README.md
+```
+
+## Future Enhancements
+
+- Adding more advanced mathematical functions (e.g., square roots, exponents).
+- Implementing keyboard input support for faster calculations.
+- Improving error handling and user feedback.
+
+## Contributing
+
+Feel free to fork this project and contribute. Pull requests are welcome!
+
+## License
+
+This project is open-source and available under the **MIT License**.
+
+## Author
+
+**Muhammad Aryan**  
+- GitHub: [@MuhammadAriyan](https://github.com/MuhammadAriyan)  
+- LinkedIn: [@Muhammad-Aryan](https://www.linkedin.com/in/muhammad-aryan)
